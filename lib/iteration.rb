@@ -51,7 +51,7 @@ def total_even_pairs(arry_3)
   
   arry_3.length.times do |counter| 
     sub_array = arry_3[counter]
-    if sub_array[0].even? & sub_array[1].even?
+    if sub_array[0].even? && sub_array[1].even?
       total_to_return += sub_array[0] += sub_array[1]
     else
       total_to_return += 0
