@@ -1,14 +1,14 @@
 def join_ingredients(array_1) 
   
-  array_of_strings_to_be_returned = []
+  array_to_return = []
   
     row_index = 0
   while row_index < array_1.count do
     string_in_array = "I love #{array_1[row_index][0]} and #{array_1[row_index][1]} on my pizza"
-    array_of_strings_to_be_returned.push(string_in_array)
+    array_to_return.push(string_in_array)
     row_index += 1
   end
-  array_of_strings_to_be_returned  
+  array_to_return 
   
 end
 
